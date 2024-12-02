@@ -69,6 +69,26 @@ src/
 ## 📜 Licencia
 Este proyecto está bajo la Licencia MIT.
 
+## Vista previa
+
+### Login
+
+![Login](Screenshot%20from%202024-12-02%2010-36-44.png)
+
+### CRUD Contactos
+
+#### Listar
+
+![Lista](Screenshot%20from%202024-12-02%2010-37-18.png)
+
+#### Crear
+
+![Crear](Screenshot%20from%202024-12-02%2010-37-28.png)
+
+#### Editar
+
+![Editar](Screenshot%20from%202024-12-02%2010-37-36.png)
+
 👨‍💻 Autor
 Desarrollado por Carlos Sosa.
 
