@@ -1,27 +1,76 @@
-# Contact
+# 🌐 Aplicación Angular con Login y CRUD de Contactos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
+Este proyecto es una aplicación desarrollada en Angular que permite a los usuarios iniciar sesión mediante la validación contra una API REST. Una vez autenticados, los usuarios pueden acceder a una sección donde se gestiona un CRUD completo de contactos, utilizando otra API REST.
 
-## Development server
+## 📝 Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Login seguro:** Validación de credenciales mediante una API REST.
+- **Gestión de contactos:**  
+  - Crear nuevos contactos.  
+  - Leer la lista de contactos existentes.  
+  - Actualizar información de un contacto.  
+  - Eliminar contactos.
+- **Interfaz amigable y responsiva.**
 
-## Code scaffolding
+## 🚀 Tecnologías utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend:** Angular  
+- **APIs REST:** Para el manejo de login y contactos  
+- **Estilos:** CSS/SCSS (opcionalmente con Bootstrap o Angular Material, según sea el caso)
 
-## Build
+## ⚙️ Requisitos previos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Asegúrate de tener instalados los siguientes elementos antes de ejecutar el proyecto:
 
-## Running unit tests
+- **Node.js** (v16 o superior)  
+- **Angular CLI** (v17 o superior): Puedes instalarlo con:
+```bash
+  npm install -g @angular/cli
+```
+## 🛠️ Instalación
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Clona este repositorio:
 
-## Running end-to-end tests
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+```
+### Instala las dependencias del proyecto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install
+```
 
-## Further help
+### Inicia el servidor de desarrollo:
+```bash
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🧪 Uso
+
+- Abre el navegador y accede a http://localhost:4200.
+- Introduce tus credenciales en la pantalla de inicio de sesión.
+- Una vez autenticado, podrás gestionar tus contactos.
+
+## 📂 Estructura del proyecto
+
+```
+src/
+├── app/
+│   ├── core/        # Servicios y lógica compartida
+│   ├── auth/        # Módulo de autenticación
+│   ├── contactos/   # CRUD de contactos
+│   ├── shared/      # Componentes y utilidades compartidas
+│   ├── app.module.ts
+├── assets/          # Recursos estáticos
+├── environments/    # Configuración de entornos
+```
+
+## 📜 Licencia
+Este proyecto está bajo la Licencia MIT.
+
+👨‍💻 Autor
+Desarrollado por Carlos Sosa.
+
+
+
